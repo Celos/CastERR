@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+
+    <string-array name="prefs_termination_policy_names">
+        <item>Continue application on TV</item>
+        <item>Stop application on TV</item>
+    </string-array>
+
+    <string-array name="tv_channels">
+        <item>{\"name\":\"ETV\",\"manifest\":\"http://etvstream.err.ee/live/smil:etv/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/etv.jpg\",\"type\":\"TV\"}</item>
+        <item>{\"name\":\"ETV2\",\"manifest\":\"http://etv2stream.err.ee/live/smil:etv2/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/etv2.jpg\",\"type\":\"TV\"}</item>
+        <item>{\"name\":\"ETV+\",\"manifest\":\"http://striimid.err.ee/live/smil:etvpluss/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/etvpluss.jpg\",\"type\":\"TV\"}</item>
+    </string-array>
+
+    <string-array name="radio_channels">
+        <item>{\"name\":\"VIKERRAADIO\",\"manifest\":\"http://striimid.err.ee:80/live/vikerraadio/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/vr.png\",\"type\":\"RADIO\"}</item>
+        <item>{\"name\":\"RAADIO\u00202\",\"manifest\":\"http://striimid.err.ee:80/live/raadio2/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/r2.jpg\",\"type\":\"RADIO\"}</item>
+        <item>{\"name\":\"KLASSIKARAADIO\",\"manifest\":\"http://striimid.err.ee:80/live/klassikaraadio/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/kl.png\",\"type\":\"RADIO\"}</item>
+        <item>{\"name\":\"RAADIO\u00204\",\"manifest\":\"http://striimid.err.ee:80/live/raadio4/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/r4.png\",\"type\":\"RADIO\"}</item>
+        <item>{\"name\":\"RAADIO\u0020TALLINN\",\"manifest\":\"http://striimid.err.ee:80/live/raadiotallinn/manifest.mpd\",\"image\":\"http://s.err.ee/www/images/live/rt.jpg\",\"type\":\"RADIO\"}</item>
+    </string-array>
+
+    <string-array name="test_channels">
+        <item>{\"name\":\"TEST1\",\"manifest\":\"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/dash/DesigningForGoogleCast.mpd\",\"image\":\"http://dashif.org/wp-content/uploads/2014/12/dashif-logo-283x100.jpg\",\"type\":\"TV\"}</item>
+    </string-array>
+
+</resources>
